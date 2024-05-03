@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", system-ui, sans-serif;
+  background-color: white;
+  color: white;
+}
+
+.bg-list {
+  background-color: rgb(237, 237, 237);
+}
+
+.list-custon {
+  text-decoration: none; 
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.list-custon:hover {
+  color: rgb(75, 174, 243);
+  transition-duration: 0.5s;
+}
+
+.icon-display-menu {
+  color: rgb(75, 174, 243);
+}
+
+.icon-display-menu i {
+  width: 16px;
+  height: 18px;
+}
+
+.icon-display-menu:hover {
+  color: rgb(128, 128, 128);
+}
+
+.bg-img {
+  background-image: url("../images/fondo.webp");
+  width: 100%;
+  height: 850px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+.bg-buttom-1 {
+  color: white;
+  width: 191px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 12px;
+}
+
+.bg-buttom-2 {
+  color: white;
+  width: 285px;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 12px;
+}
+
+.bg-buttom-1:hover {
+  background-color: rgb(75, 174, 243);
+  transition-duration: 0.5s;
+}
+
+.bg-buttom-2:hover {
+  background-color: rgb(75, 174, 243);
+  transition-duration: 0.5s;
+}
+
+.container-child {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card_styles {
+  padding-top: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+}
+
+.list-canvas {
+  background-color: rgb(34, 43, 52);
+  color: white;
+  padding-left: 50px;
+}
+
+.list-canvas:hover {
+  background-color: rgb(75, 174, 243);
+  transition-duration: 0.5s;
+}
+
+.btn-close:hover {
+  background-color: rgb(75, 174, 243);
+  transition-duration: 0.5s;
+}
